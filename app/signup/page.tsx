@@ -15,12 +15,12 @@ const Signup = () => {
   const [tel, setTel] = useState("");
   const [error, setError] = useState("");
 
-  const validateEmail = (email) => {
+  const validateEmail = (email: string) => {
     const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return pattern.test(email);
   };
 
-  const handleSignup = (e) => {
+  const handleSignup = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError("");
 
