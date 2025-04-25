@@ -5,7 +5,7 @@ import { CiUser } from "react-icons/ci";
 
 const DashboardNavbar = () => {
   return (
-    <header className="flex justify-between w-11/12 mx-auto items-center shadow-sm p-3 m-2.5 rounded-full shadow-[#8c52ff]/15">
+    <header className="flex justify-between w-11/12 mx-auto items-center sticky top-0 shadow-sm p-3 m-2.5 rounded-full shadow-[#8c52ff]/15 bg-white/10 bg-clip-padding backdrop-filter backdrop-blur-sm ">
       <h1 className="text-2xl text-black font-semibold">
         wishcube
         <sup className="bg-[#8c52ff] text-white px-1 rounded-full text-xs ml-1">

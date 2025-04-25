@@ -12,7 +12,7 @@ const Navbar = () => {
   const navLinks = ["Home", "About", "Features", "Contact"];
 
   return (
-    <nav className="bg-white border border-[#8c52ff] rounded-full top-0 sticky w-11/12 md:w-4/5 mx-auto mt-4 p-3 flex justify-between items-center z-50">
+    <nav className="bg-white/10  bg-clip-padding backdrop-filter backdrop-blur-sm  border border-[#8c52ff] rounded-full top-0 sticky w-11/12 md:w-4/5 mx-auto mt-4 p-3 flex justify-between items-center z-50">
       {/* Logo */}
       <div className="text-xl font-semibold text-[#8c52ff] font-sora">
         WishCube
@@ -36,7 +36,7 @@ const Navbar = () => {
       {/* Auth Buttons */}
       <div className="flex items-center gap-4 z-10">
         <Link href="/signup">
-          <button className="cursor-pointer hidden md:block border-[#8c52ff] border text-[#8c52ff] hover:bg-[#8c52ff]-dark bg-white text-sm px-4 py-1.5 rounded-full transition duration-300">
+          <button className="cursor-pointer hidden md:block border-[#8c52ff] border text-[#8c52ff] hover:bg-[#8c52ff]-dark bg-white/10 text-sm px-4 py-1.5 rounded-full transition duration-300">
             Sign Up
           </button>
         </Link>

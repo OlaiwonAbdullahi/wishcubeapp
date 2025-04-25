@@ -10,7 +10,11 @@ export default function LayoutWrapper({
 }) {
   const pathname = usePathname();
 
-  const isDashboard = pathname.startsWith("/dashboard");
+  const isDashboard =
+    pathname.startsWith("/dashboard") ||
+    pathname.startsWith("/gift") ||
+    pathname.startsWith("/video") ||
+    pathname.startsWith("/wallet");
 
   return (
     <>
