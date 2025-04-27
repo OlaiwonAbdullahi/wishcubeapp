@@ -22,7 +22,7 @@ const Generator = () => {
   return (
     <div className="w-full flex flex-col md:flex-row gap-6 p-4">
       {/* Form Section */}
-      <div className="bg-white shadow-xl p-6 rounded-2xl md:w-1/2 w-full space-y-6">
+      <div className="bg-white/10 bg-clip-padding backdrop-filter backdrop-blur-sm  shadow-xl p-6 rounded-2xl md:w-1/2 w-full space-y-6">
         <h2 className="text-lg font-semibold text-gray-800">
           Create Your Greetings Website
         </h2>
@@ -157,7 +157,7 @@ const Generator = () => {
         </div>
       </div>
 
-      <div className="bg-white shadow-xl p-6 rounded-2xl md:w-1/2 w-full flex flex-col items-center h-[110vh]">
+      <div className="bg-white/10 bg-clip-padding backdrop-filter backdrop-blur-sm  shadow-xl p-6 rounded-2xl md:w-1/2 w-full flex flex-col items-center h-[110vh]">
         <h2 className="text-lg font-semibold text-gray-800  self-start">
           Preview
         </h2>
@@ -169,11 +169,11 @@ const Generator = () => {
           className="rounded-md w-full max-w-[400px]"
         />
         <div className=" flex flex-col gap-4 w-2/3 mt-4">
-          <button className=" whitespace-nowrap cursor-pointer flex items-center justify-center gap-2.5 bg-violet-800 text-gray-100  p-2 rounded-md  w-full hover:bg-violet-700 transition duration-200">
+          <button className=" whitespace-nowrap cursor-pointer flex items-center justify-center gap-2.5 bg-[#8c52ff] text-gray-100  p-2 rounded-md  w-full hover:bg-violet-700 transition duration-200">
             <IoCopyOutline className=" size-6" />
             Copy Greeting Link
           </button>
-          <button className=" whitespace-nowrap  cursor-pointer flex items-center justify-center gap-2.5 border-violet-800 text-violet-800 bg-gray-100  border p-2 rounded-md  w-full hover:bg-violet-200 transition duration-200">
+          <button className=" whitespace-nowrap  cursor-pointer flex items-center justify-center gap-2.5 border-[#8c52ff] text-[#8c52ff] bg-gray-100  border p-2 rounded-md  w-full hover:bg-violet-200 transition duration-200">
             <CiShare2 className=" size-6" />
             Share on Social Media
           </button>
